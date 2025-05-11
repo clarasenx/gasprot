@@ -1,0 +1,26 @@
+{
+  "name": "gasprot",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/clarasenx/gasprot#readme",
+  "bugs": {
+    "url": "https://github.com/clarasenx/gasprot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/clarasenx/gasprot.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@tuya/tuya-connector-nodejs": "^2.1.2",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
